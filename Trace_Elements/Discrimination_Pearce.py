@@ -40,36 +40,37 @@ y=[8.741,8.251,6.426,6.067,6.297,9.055]
 
 plot_NbY= NbY.scatter(x,y,s=500,alpha=0.75,color='r')
 
-"
+
 #Second subplot: Ta vs Yb
 
-TaYb = fig.add_subplot(222)
+#ax2 = fig.add_subplot(222)
 
-T_TaYb1=TaYb.text(5, 50, 'Within-plate \ngranite', fontsize=12)
-T_TaYb2=TaYb.text(0.2, 5, ' Within-plate granite and \nMORB anomalous ridge \nsegments', fontsize=12)
-T_TaYb3=TaYb.text(10, 5, 'Ocean ridge granite', fontsize=12)
-T_TaYb4=TaYb.text(1, 0.1, 'Volcanic arc and syn- \ncollision granites', fontsize=12)
-
-
-
-TaYb.plot([0.55,3],[20,2],color='black')
-TaYb.plot([3,100],[2,20],color='black')
-TaYb.plot([3,0.1],[2,0.35],color='black')
-TaYb.plot([5,5],[1,0.05],color='black')
-TaYb.plot([5,100],[1,0.7],color='black')
-TaYb.plot([3,5],[2,1],color='black'
-
-TaYb.set_yscale('log')
-TaYb.set_xscale('log')
-
-TaYb.set_xlabel('Yb (ppm)',fontsize=12)
-TaYb.set_ylabel('Ta (ppm)',fontsize=12)
-TaYb.set_xlim(0.1, 100)
-TaYb.set_ylim(0.01,100)
+#p11=ax2.text(5, 50, 'Within-plate \ngranite', fontsize=12)
+#p22=ax2.text(0.2, 5, ' Within-plate granite and \nMORB anomalous ridge \nsegments', fontsize=12)
+#p33=ax2.text(10, 5, 'Ocean ridge granite', fontsize=12)
+#p44=ax2.text(1, 0.1, 'Volcanic arc and syn- \ncollision granites', fontsize=12)
 
 
-plot_TaYb= TaYb.scatter(x,y,s=500,alpha=0.75,color='r')
-"
+
+#ax2.plot([0.55,3],[20,2],color='black')
+#ax2.plot([3,100],[2,20],color='black')
+#ax2.plot([3,0.1],[2,0.35],color='black')
+#ax2.plot([5,5],[1,0.05],color='black')
+#ax2.plot([5,100],[1,0.7],color='black')
+#ax2.plot([3,5],[2,1],color='black'
+
+#ax2.set_yscale('log')
+#ax2.set_xscale('log')
+
+#ax2.set_xlabel('Yb (ppm)',fontsize=12)
+#ax2.set_ylabel('Ta (ppm)',fontsize=12)
+#ax2.set_xlim(0.1, 100)
+#ax2.set_ylim(0.01,100)
+
+
+#p111= ax2.scatter(x,y,s=500,alpha=0.75,color='r')
+
+
 #tercero
 
 ax3 = fig.add_subplot(223)
